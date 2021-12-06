@@ -1,0 +1,145 @@
+1  exit
+    2  ls
+    3  unzip mission1.zip
+    4  mv accessKeys.csv mission1
+    5  cd mission1
+    6  chmod +x *.sh
+    7  ./aws_set_credentials.sh accessKeys.csv
+    8  clear
+    9  ls -l
+   10  mv accessKeys.csv mission1
+   11  cd ..
+   12  ls -l
+   13  mv accessKeys.csv mission1
+   14  ls -l
+   15  mv accessKeys.csv mission1
+   16  cd mission1/
+   17  cd ..
+   18  cp accessKeys.csv.cs mission1
+   19  cp accessKeys.csv.cs mission1/
+   20  cp accessKeys.csv.cs /mission1/
+   21  cp accessKeys.csv.cs /mission1
+   22  cp accessKeys.csv.cs mission1
+   23  cd mission1
+   24  mv accessKeys.csv mission1
+   25  cd..
+   26  mv accessKeys.csv mission1
+   27  ls
+   28  cd..
+   29  ls -l
+   30  mv accessKeys.csv.csv accessKeys.csv
+   31  cd mission1/
+   32  cd ..
+   33  mv accessKeys.csv mission1
+   34  cd mission1
+   35  chmod +x *.sh
+   36  ./aws_set_credentials.sh accessKeys.csv
+   37  gcloud config set project crafty-acumen-333817
+   38  clear
+   39  ./gcp_set_project.sh
+   40  cat ~/mission1/terraform/terraform.tfvars
+   41  cd ~/mission1/terraform/
+   42  terraform init
+   43  terraform plan
+   44  clear
+   45  cd ~/mission1/terraform/
+   46  terraform init
+   47  cd ~/mission1/terraform/
+   48  terraform init
+   49  terraform plan
+   50  clear
+   51  terraform apply
+   52  terraform init
+   53  terraform plan
+   54  cd mission1/
+   55  clear
+   56  terraform init
+   57  terraform plan
+   58  cd..
+   59  clear
+   60  cd ~/mission1/terraform/
+   61  terraform init
+   62  cleqar
+   63  clear
+   64  terraform plan
+   65  terraform apply
+   66  terraform force-unlock 9db590f1-b6fe-c5f2-2678-8804f089deba
+   67  terraform force-unlock 38553367-c85f-d276-b715-dbcd6440e46a
+   68  clear
+   69  terraform init
+   70  terraform plan
+   71  terraform force-unlock -force 38553367-c85f-d276-b715-dbcd6440e46a
+   72  terraform force-unlock -force
+   73  orce-unlock\\
+   74  clear
+   75  force-unlock 38553367-c85f-d276-b715-dbcd6440e46a
+   76  terraform force-unlock -force 38553367-c85f-d276-b715-dbcd6440e46a
+   77  terraform init
+   78  terraform plan
+   79  terraform apply
+   80  history
+   81  cd ~/mission1/terraform/
+   82  terraform init
+   83  terraform plan
+   84  clear
+   85  terraform apply
+   86  clear
+   87  cd ~/mission1/terraform/
+   88  terraform init
+   89  clear
+   90  terraform plan
+   91  clear
+   92  terraform apply
+   93  wget https://objectstorage.us-ashburn-1.oraclecloud.com/p/vXcyfs5wWB9ddcFSL4ZWIae7JmJ_9vGFRRCg6Fp4WljPjDAebALunIC1WmrG5gvp/n/idqfa2z2mift/b/eventos-thecloudbootcamp/o/DCP1/mission2.zip
+   94  unzip mission2.zip
+   95  clear
+   96  mysql --host=35.239.219.210 --port=3306 -u app -p
+   97  claer
+   98  clear
+   99  mysql --host=35.239.219.210 --port=3306 -u app -p;
+  100  ping 35.239.219.210
+  101  gcloud sql instances describe tcb-pharma-database-instance1 | grep connectionName
+  102  ping 35.239.219.210
+  103  mysql --host=35.239.219.210 --port=3306 -u app -p;
+  104  ps -Af | grep tcb-pharma-database-instance1
+  105  mysql -u root -p
+  106  clear
+  107  mysql --host=35.239.219.210 --port=3306 -u app -p;
+  108  mysql --host=35.239.219.210
+  109  mysql.server start
+  110  cd mission1
+  111  ./gcp_set_project.sh
+  112  gcloud services enable container.googleapis.com
+  113  gcloud sql connect tcb-pharma-database-instance1 --user=root --quiet
+  114  gcloud sql connect tcb-pharma-database-instance1 --user=app --quiet
+  115  clear
+  116  gcloud sql connect tcb-pharma-database-instance1 --user=app --quiet
+  117  ls -l
+  118  cd
+  119  ls -l
+  120  gcloud sql connect tcb-pharma-database-instance1 --user=app --quiet
+  121  clear
+  122  cd ~/mission2/pt/app;
+  123  gcloud builds submit --tag gcr.io/crafty-acumen-333817/pharma-store-app
+  124  gcloud container clusters get-credentials tcb-ccnl1-cluster1 --region us-central1 --project crafty-acumen-333817
+  125  kubectl as nodes
+  126  kubectl get nodes
+  127  gcloud container clusters get-credentials tcb-ccnl1-cluster1 --region us-central1 --project crafty-acumen-333817
+  128  kubectl get nodes;
+  129  cd ~/mission2/pt/kubernetes
+  130  kubectl apply -f pharma-store.yaml
+  131  kubectl get nodes;
+  132  cd
+  133  wget https://objectstorage.us-ashburn-1.oraclecloud.com/p/0YorGJdzXIVpKEnCrPCC_zQbzqG4Zzew6zmZujITyeyIeTvRgjniZNHp-OiIKtZc/n/idqfa2z2mift/b/eventos-thecloudbootcamp/o/DCP1/mission3.zip
+  134  gcloud sql connect tcb-pharma-database-instance1 --user=app --quiet
+  135  clear
+  136  cd
+  137  cd mission3
+  138  ls -l
+  139  unzip mission3.zip
+  140  cd mission3/
+  141  clear
+  142* wget https://objectstorage.us-ashburn-1.oraclecloud.com/p/vXcyfs5wWB9ddcFSL4ZWIae7JmJ_9vGFRRCg6Fp4WljPjDAebALunIC1WmrG5gvp/n/idqfa2z2mift/b/eventos-thecloudbootcamp/o/DCP1/mission2.zi
+  143  clear
+  144  history
+

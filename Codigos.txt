@@ -1,0 +1,8 @@
+parte 1 do codigo missao 1 = 13
+parte 1 do codigo missao 2 = 65
+
+parte 1 do codigo msssao 2 =  24
+parte 2 do codigo msssao 2 =  78
+
+parte 1 do codigo msssao 3 =  31
+parte 2 do codigo msssao 3 =  14
